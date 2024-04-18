@@ -1,13 +1,13 @@
 ﻿using System;
-/*using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;*/
+using System.Threading.Tasks;
 using System.Windows.Input;
 
-namespace CV19.Infrastructure.Commands.Base
+namespace TestLibFramework
 {
-    internal abstract class Command : ICommand
+    public abstract class Command : ICommand
     {
         public event EventHandler CanExecuteChanged
         {
