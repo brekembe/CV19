@@ -6,7 +6,12 @@
         xmlns:local="clr-namespace:CV19WPFTest"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="218,78,0,0" VerticalAlignment="Top" />
+        <TextBox HorizontalAlignment="Left" Margin="482,191,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Slider HorizontalAlignment="Left" Margin="372,157,0,0" VerticalAlignment="Top" Width="120"/>
+        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="238,246,0,0" VerticalAlignment="Top" Width="100"/>
 
     </Grid>
 </Window>
